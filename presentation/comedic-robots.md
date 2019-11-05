@@ -19,6 +19,6 @@ The results of the paper show that humans were equally amused by the robot as th
 This may also be due to the fact that this is a novel experience but it did prove that by the use of mimetics, robots can achieve humor.
 Additionally the paper concluded that the delivery of punch lines and use of gaze also greatly affected the audience
 
-** Why is this important?
+**Why is this important?
 
 As we move forward in robotic development, robots will be penetrating all spheres of life. In terms of performance they allow for more accurate research as they can be explicitly manipulated to keep some aspects of performance constant while others can be made variables. This is not the case with living performers due to human error. If robotic performance can be achieved even in the realm of comedy, the world of performing robots will be limitless.
