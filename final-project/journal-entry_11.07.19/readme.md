@@ -9,11 +9,11 @@ This week I wanted to start prototyping the different houshold items and working
 
 First I made diagrams of the various household items and what they need:
 
-![](Broom.JPG)
-![](Duster.JPG)
-![](Mirror.JPG)
-![](Mop.JPG)
-![](Bucket.JPG)
+![](Broom.jpg)
+![](Duster.jpg)
+![](Mirror.jpg)
+![](Mop.jpg)
+![](Bucket.jpg)
 
 I believed that the magic mirror and moving broom would be the most difficult aspects of the project. As such I started with the mirror and experimented with the mechanics of the broom.
 
@@ -42,3 +42,4 @@ The mop would have a similar approach but with curved yellow motors so as to cre
 ## Next Steps:
 
 The next steps would be to collect items and prototype the broom and mop. 
+Figure out how to get Bluefruit working with multiple arduinos
