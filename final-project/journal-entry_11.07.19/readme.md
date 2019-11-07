@@ -15,15 +15,15 @@ I used card board as a prototype and and silk cloth to clean. I then wired a ser
 
 I may redo it with stronger marterial but for now I will be using cardboard and a silk cloth.
 
-![](Wiper.jpg)
+![](Wiper.JPG)
 
-![](Cloth.jpg)
+![](Cloth.JPG)
 
 Additionally, I reached out to Steven to confirm hours of the prop shop. It is not open until 3pm today but it is open on weekends so I will be going to get houshold items then. 
 
 Even though I hope to use the base of Angelina for the bucket, in the event that it is too bif, I have sourced a wooden base that I could use 
 
-![](Base.jpg)
+![](Base.JPG)
 
 I also used to IM Broom to figure out how the motors would be attached. From my testing the most reasonable approach is to get a broom like the one below, cut the inner bristles and attach the yellow motors with wheels inside the bristiles of the broom. 
 
