@@ -42,4 +42,5 @@ The mop would have a similar approach but with curved yellow motors so as to cre
 ## Next Steps:
 
 The next steps would be to collect items and prototype the broom and mop. 
+<br>
 Figure out how to get Bluefruit working with multiple arduinos
