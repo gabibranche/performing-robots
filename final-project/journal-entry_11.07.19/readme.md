@@ -7,6 +7,14 @@ This week I wanted to start prototyping the different houshold items and working
 
 ## What I did
 
+First I made diagrams of the various household items and what they need:
+
+![](Broom.JPG)
+![](Duster.JPG)
+![](Mirror.JPG)
+![](Mop.JPG)
+![](Bucket.JPG)
+
 I believed that the magic mirror and moving broom would be the most difficult aspects of the project. As such I started with the mirror and experimented with the mechanics of the broom.
 
 I used card board as a prototype and and silk cloth to clean. I then wired a server to cardboard to be connected to the back of the 'mirror'. Using magnets I was able to move the cloth 'magically as seen in video:
