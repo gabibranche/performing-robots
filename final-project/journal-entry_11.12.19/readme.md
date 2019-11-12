@@ -25,7 +25,7 @@ I went to the prop shop and loaned out items. I still think I would need a diffe
 
 ### Cleaning Cloth
 
-The next thing I did was to test the servo of the cleaning cloth. The design works well. You can see a video of the final test [here]().
+The next thing I did was to test the servo of the cleaning cloth. The design works well. You can see a video of the final test [here](https://youtu.be/P9jcDCCv5ss).
 
 At first one magnet was too week and the servo was causing them to fly off the board. However by adding to magnets, the magnetic strength increased and the mechansim works quite well.
 
@@ -43,23 +43,23 @@ I started off prototypong the broom. However, the broom I am working with is ver
 
 I then researched some videos on how beaple made self moving brooms and came across this video :
 
-[Self Moving Broom]()
+[Self Moving Broom](https://www.youtube.com/watch?v=VE2j0uXLPW8)
 
 I don't think this mechanism will work for me however because the stick will probable be too heavy and weigh it down. I am now back to square one with the broom.
 
 **However** I did make significant progress with the mop. I created a little two wheeled vehicle using to motors with wheels and wood and programmed it to move back and forward by modifying example code. 
 
-[Video showing two wheeled vehichle]()
+[Video showing two wheeled vehichle](https://www.youtube.com/watch?v=lgdBW9MP_WU&feature=youtu.be)
 
 I then attached the vehichle under the mop and allowed it to move. Interestingly, the strips of the mop occasionally caught in the wheels causing it to move with a certain level of randomness. 
 
-[Mop with Randomness]()
+[Mop with Randomness](https://youtu.be/resRLlQOAxc)
 
 While I like this effect, it is risky considering it could stop moving completely. I plan to make a little mesh to keep the mop strings from tangling and then codeing the mop to move randomly.
 
 I then attached a string to the top of the mop to fully simulate the movement I am going for. At the moment I want to mop to be able to move up and down in the bucket as well. I may change this depending on how it lookes but if not, the mop will move within the confines of the string such as in this final video
 
-[Mop moving from Strinf]()
+[Mop moving from String](https://youtu.be/FTaCuProL98)
 
 ## Next Steps:
 
