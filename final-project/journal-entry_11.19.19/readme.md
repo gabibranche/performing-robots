@@ -12,7 +12,8 @@
 
 Once the lights arrived, I dismanteled it and figured out the wiring.
 
-![](Wiring.jpg)
+![](Wiring1.jpg)
+![](Wiring2.jpg)
 
 I realised that there was a small circuit board with an IR sensor, a battery, a button and 3 neopixels. As such, I scraped off one of the neopixels and soldered on wire to see if I could fuel the current from that light port to an alternative source.
 <br>
