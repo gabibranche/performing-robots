@@ -28,7 +28,7 @@ Michael and I decided to try another alternative. We ordered one remote controle
 
 ### Prototype Duster
 
-The next thing I did was to prototype duster. I used a DC motor with a gear and string to allove for an up and down movement as heen in the video ![here](). 
+The next thing I did was to prototype duster. I used a DC motor with a gear and string to allove for an up and down movement as heen in the video ![here](https://youtu.be/f39WO7dEEe0). 
 
 At first the string was slipping off the gear so I extended the edges as shown below to allow for smoth movement without falling off:
 
@@ -37,7 +37,7 @@ At first the string was slipping off the gear so I extended the edges as shown b
 
 <br>
 
-Once this was done it moved quite smoothly as shown in the ![second video of the duster]()
+Once this was done it moved quite smoothly as shown in the ![second video of the duster](https://youtu.be/HHdX5LZVrVo)
 
 ### Consult Michael on broom
 
