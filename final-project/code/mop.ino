@@ -1,4 +1,6 @@
-//arduino code for the bucket robot
+//arduino code for the mop robot
+
+//this robot is manipulated using adafruit bluetooth LE Friend. The commands to move the mop are sent using bluetooth and then determine which motors are turned on and off according to make the mop move forward, backwards, left and right accordingly.
 
 #include <string.h>
 #include <Arduino.h>
@@ -183,102 +185,35 @@ void loop(void)
       //making mop move forward if button 5 (ie arrow up) pressed
       if (buttnum == 5) {
         Serial.print(" Forward");
-        myMotor->run(FORWARD);
-        myOtherMotor->run(FORWARD);
+        myMotor->run(FORWARD); //makes the left motor turn forward
+        myOtherMotor->run(FORWARD); //makes the right motor turn forward
       }
 
       //making mop move backward if button 6 (ie arrow down) pressed
       if (buttnum == 6) {
         Serial.print(" Backward");
-        myMotor->run(BACKWARD);
-        myOtherMotor->run(BACKWARD);
+        myMotor->run(BACKWARD); //makes the left motor turn backward
+        myOtherMotor->run(BACKWARD); //makes the right motor turn backwards
       }
 
       //making mop move spinning in an anticlockwise direction if button 7 (ie arrow left) pressed
       if (buttnum == 7) {
-        myMotor->run(FORWARD);
-        myOtherMotor->run(BACKWARD);
+        myMotor->run(FORWARD); //makes the left motor turn forward
+        myOtherMotor->run(BACKWARD); //makes the right motor turn backward
       }
 
       //making mop move spinning in an clockwise direction if button 8 (ie arrow right) pressed
       if (buttnum == 8) {
-        myMotor->run(BACKWARD);
-        myOtherMotor->run(FORWARD);
+        myMotor->run(BACKWARD); //makes the left motor turn backward
+        myOtherMotor->run(FORWARD); //makes the right motor turn forward
       }
 
       //making mop cease moving
       //although the buttons were only pressed once, the yellow plastic motors work on an command by command basis, meaning once turned on, they will keep going unless commanded other wise
       if (buttnum == 2) {
-        myMotor->run(RELEASE);
-        myOtherMotor->run(RELEASE);
-        j=0;
+        myMotor->run(RELEASE); //makes the left motor stop moving
+        myOtherMotor->run(RELEASE); //makes the right motor stop moving
       }
     }
   } // end of button event
 
-  // GPS Location
-  if (packetbuffer[1] == 'L') {
-    float lat, lon, alt;
-    lat = parsefloat(packetbuffer + 2);
-    lon = parsefloat(packetbuffer + 6);
-    alt = parsefloat(packetbuffer + 10);
-    Serial.print("GPS Location\t");
-    Serial.print("Lat: "); Serial.print(lat, 4); // 4 digits of precision!
-    Serial.print('\t');
-    Serial.print("Lon: "); Serial.print(lon, 4); // 4 digits of precision!
-    Serial.print('\t');
-    Serial.print(alt, 4); Serial.println(" meters");
-  }
-
-  // Accelerometer
-  if (packetbuffer[1] == 'A') {
-    float x, y, z;
-    x = parsefloat(packetbuffer + 2);
-    y = parsefloat(packetbuffer + 6);
-    z = parsefloat(packetbuffer + 10);
-    Serial.print("Accel\t");
-    Serial.print(x); Serial.print('\t');
-    Serial.print(y); Serial.print('\t');
-    Serial.print(z); Serial.println();
-  }
-
-  // Magnetometer
-  if (packetbuffer[1] == 'M') {
-    float x, y, z;
-    x = parsefloat(packetbuffer + 2);
-    y = parsefloat(packetbuffer + 6);
-    z = parsefloat(packetbuffer + 10);
-    Serial.print("Mag\t");
-    Serial.print(x); Serial.print('\t');
-    Serial.print(y); Serial.print('\t');
-    Serial.print(z); Serial.println();
-  }
-
-  // Gyroscope
-  if (packetbuffer[1] == 'G') {
-    float x, y, z;
-    x = parsefloat(packetbuffer + 2);
-    y = parsefloat(packetbuffer + 6);
-    z = parsefloat(packetbuffer + 10);
-    Serial.print("Gyro\t");
-    Serial.print(x); Serial.print('\t');
-    Serial.print(y); Serial.print('\t');
-    Serial.print(z); Serial.println();
-  }
-
-  // Quaternions
-  if (packetbuffer[1] == 'Q') {
-    float x, y, z, w;
-    x = parsefloat(packetbuffer + 2);
-    y = parsefloat(packetbuffer + 6);
-    z = parsefloat(packetbuffer + 10);
-    w = parsefloat(packetbuffer + 14);
-    Serial.print("Quat\t");
-    Serial.print(x); Serial.print('\t');
-    Serial.print(y); Serial.print('\t');
-    Serial.print(z); Serial.print('\t');
-    Serial.print(w); Serial.println();
-  }
-}
-
-//
