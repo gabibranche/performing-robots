@@ -1,10 +1,12 @@
-#include <Servo.h>
+// code to make the duster work
 
-Servo myservo;
+
+// the duster works by using a dc motor which spins in one direction then the other
+// it is controlled using a remote control triggering an IR sensor
+
 
 // constants won't change. They're used here to set pin numbers:
 const int buttonPin = A1;     // the number of the pushbutton pin
-const int ledPin =  3;      // the number of the LED pin
 
 // variables will change:
 int buttonState = 0;         // variable for reading the pushbutton status
@@ -24,12 +26,12 @@ Adafruit_DCMotor *myMotor = AFMS.getMotor(1);
 
 
 void setup() {
-  // initialize the LED pin as an output:
-  pinMode(ledPin, OUTPUT);
+
   // initialize the pushbutton pin as an input:
+  // this pin will determin whether the remote has been pressed using an IR Sensor
   pinMode(buttonPin, INPUT);
 
-  Serial.begin(9600);           // set up Serial library at 9600 bps
+  Serial.begin(9600);           // set up Serial library at 9600 bps and is used for debugging
   Serial.println("Adafruit Motorshield v2 - DC Motor test!");
 
   AFMS.begin();  // create with the default frequency 1.6KHz
@@ -42,15 +44,17 @@ void setup() {
 
 
 void loop() {
-  // read the state of the pushbutton value:
+  // read the state of the IR Sensor value:
   buttonState = analogRead(buttonPin);
+  //print the value read by the IR Sensor
   Serial.println(buttonState);
 
-  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+  // check if the pushbutton is pressed. If it is, the buttonState is more than 500:
   if (buttonState > 500) {
     Serial.print("Button Pressed");
      int i = 0;
 
+  // start the motor in one direction and increase then decrease speed gradually
     myMotor->run(FORWARD);
     for (i = 0; i < 255; i++) {
       myMotor->setSpeed(i);
@@ -61,7 +65,7 @@ void loop() {
       delay(10);
     }
 
-
+  // start speed in opposite direction and increase then decrease speed gradually
     myMotor->run(BACKWARD);
     for (i = 0; i < 255; i++) {
       myMotor->setSpeed(i);
@@ -72,12 +76,12 @@ void loop() {
       delay(10);
     }
 
+    //stop motor for 1 second before repeating process
     myMotor->run(RELEASE);
     delay(1000);                     // waits 15ms for the servo to reach the position
   }
   else {
-    // turn LED off:
-    digitalWrite(ledPin, LOW);
+    // if remote off botton pressed, IR sensor will read less than 500 and then motors will be turned off
     myMotor->run(RELEASE);
   }
 }
