@@ -57,4 +57,6 @@ The bucket was quite easy to protoype as I used the base from our midterm projec
 
 ## Other tasks accomplished
 
+*Tested all the items together*
 
+Once I had all the items working to some extent, I tested them together as could be seen in this [video](). 
