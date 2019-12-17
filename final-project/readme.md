@@ -1,6 +1,7 @@
 # Gremlins!
 
-My Final Project for Performing Robots was a piece called **Gremlins!**. 
+My Final Project for Performing Robots was a piece called **Gremlins!** 
+<br>
 <br>
 It showcased 5 household items which moved on their own while the owner of the house is increasingly getting more and more startled by the mystrious occorences in the house.
 
