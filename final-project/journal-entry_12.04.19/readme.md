@@ -53,8 +53,8 @@ This task was completed and the various arduinos kept track of. The next challen
 
 *Prototype Bucket*
 The bucket was quite easy to protoype as I used the base from our midterm project. Ideally I would have wanted to make a more subtle base, however hiven time contraint I decided against it. Now I am quite happy at what was made. I did have to redo one of the wheels and resolder the battery but this only took like 30 mins time.
-![](bucket2.jpg)
-![](gabi.jpg)
+![](bucket2.jpg.jpg)
+![](gabi.jpg.jpg)
 
 ## Other tasks accomplished
 
