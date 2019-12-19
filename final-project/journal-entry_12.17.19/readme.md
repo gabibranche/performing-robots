@@ -36,7 +36,7 @@ The most difficult part of setting up in 006 was insatalling the duster from the
 
 I also spiked all my equipment with red tape to make sure that they would be easily placed in the space during showtime. Once this was done, it was just a matter of practicing driving the robots throughout the space.
 
-![](setUp.jpg)
+![](setUp.png)
 
 ### Test with Natasha and Hatim
 
