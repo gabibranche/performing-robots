@@ -7,19 +7,19 @@
 I decided to make 5 items:
 
 * a broom
-![](broom..jpg.jpg)
+![](broom.jpg.jpg)
 
 * a mop
-![](mop..jpg.jpg)
+![](mop.jpg.jpg)
 
 * a duster
-![](duster..jpg.jpg)
+![](duster.jpg.jpg)
 
 * a bucket
-![](bucket..jpg.jpg)
+![](bucket.jpg.jpg)
 
 * a self cleaning mirror
-![](mirror..jpg.jpg)
+![](mirror.jpg.jpg)
 
 
 In the performance, the items start moving one after the other but freeze whenever the owner looks up from her paper. Finally she falls asleep at which point the items all start cleaning together and moving around the room. When the owner wakes up, she is thoroughly startled.
