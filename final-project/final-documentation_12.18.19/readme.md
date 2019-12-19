@@ -7,19 +7,19 @@
 I decided to make 5 items:
 
 * a broom
-![](broom.jpg)
+![](broom..jpg.jpg)
 
 * a mop
-![](mop.jpg)
+![](mop..jpg.jpg)
 
 * a duster
-![](duster.jpg)
+![](duster..jpg.jpg)
 
 * a bucket
-![](bucket.jpg)
+![](bucket..jpg.jpg)
 
 * a self cleaning mirror
-![](mirror.jpg)
+![](mirror..jpg.jpg)
 
 
 In the performance, the items start moving one after the other but freeze whenever the owner looks up from her paper. Finally she falls asleep at which point the items all start cleaning together and moving around the room. When the owner wakes up, she is thoroughly startled.
@@ -32,7 +32,7 @@ The piece is meant to be mechanical slap stick and comedic while still showcasin
 The video of the final project can be found [here](https://youtu.be/KPfJLhOb6I0).
 
 ## System diagram of the hardware
-![](schematic.jpg)
+![](schematic.jpg.JPG)
 
 ## List of important parts
 
@@ -84,10 +84,11 @@ The video of the final project can be found [here](https://youtu.be/KPfJLhOb6I0)
   - IR Remote Control
 
 ## Pictures of the electronics
-![](wiring1.jpg)
-![](wiring2.jpg)
-![](wiring3.jpg)
-![](wiring4.jpg)
+![](wiring1.jpg.jpg)
+![](wiring2.jpg.jpg)
+![](wiring3.jpg.jpg)
+![](wiring4.jpg.jpg)
+![](wiring5.jpg.jpg
 ## Major Challenges
 
 There were quite a few challenges in making this project. However I would like to highlight a few and how I overcame them
