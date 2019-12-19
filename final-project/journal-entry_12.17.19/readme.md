@@ -36,10 +36,11 @@ The most difficult part of setting up in 006 was insatalling the duster from the
 
 I also spiked all my equipment with red tape to make sure that they would be easily placed in the space during showtime. Once this was done, it was just a matter of practicing driving the robots throughout the space.
 
+![](setUp.jpg)
 
 ### Test with Natasha and Hatim
 
-I had 3 tests in the space. Once with Natasha, once with Hatim and one with the two together which could be found [here](). These practices were needed to make sure everything ran smoothly in the show. The most difficult part was trying to do a full run through without one of the robots malfunctioning. I think the only run where all the machines worked was the first time I ran it with Hatim and Natasha before filming and in the actual show. 
+I had 3 tests in the space. Once with Natasha, once with Hatim and one with the two together which could be found [here](https://youtu.be/RUvNm_sH5tQ). These practices were needed to make sure everything ran smoothly in the show. The most difficult part was trying to do a full run through without one of the robots malfunctioning. I think the only run where all the machines worked was the first time I ran it with Hatim and Natasha before filming and in the actual show. 
 <br>
 However this was very beneficial to the process as it made me think on my feet and adapt.
 
