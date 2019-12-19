@@ -15,7 +15,7 @@ After consulting Jon about the broom I decided to create different prototypes to
 
 I was inspired by Ahmed's design which when I playfully leaned the broom on, it stood without falling. 
 ![](Walle.jpg)
-![](BroomBase.jpg)
+![](BroomStand.jpg)
 I decided to make a clean protoype using this design which allowed the broom to stand. 
 <br>
 I then created a little vehicle which allowed the broom to move forward. However, it was not strong enough to pull the broom back or turn. As a result I added caster wheels which helped with moving back but still caused a problem when turning. 
