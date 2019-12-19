@@ -10,16 +10,16 @@ I decided to make 5 items:
 ![](broom.jpg)
 
 * a mop
-![](broom.jpg)
+![](mop.jpg)
 
 * a duster
-![](broom.jpg)
+![](duster.jpg)
 
 * a bucket
-![](broom.jpg)
+![](bucket.jpg)
 
 * a self cleaning mirror
-![](broom.jpg)
+![](mirror.jpg)
 
 
 In the performance, the items start moving one after the other but freeze whenever the owner looks up from her paper. Finally she falls asleep at which point the items all start cleaning together and moving around the room. When the owner wakes up, she is thoroughly startled.
@@ -27,9 +27,12 @@ In the performance, the items start moving one after the other but freeze whenev
 
 The piece is meant to be mechanical slap stick and comedic while still showcasing the versatility of robotics.
 
-## Overall picture(s)
+## Overall video
+
+The video of the final project can be found [here](https://youtu.be/KPfJLhOb6I0).
 
 ## System diagram of the hardware
+![](schematic.jpg)
 
 ## List of important parts
 
@@ -81,7 +84,10 @@ The piece is meant to be mechanical slap stick and comedic while still showcasin
   - IR Remote Control
 
 ## Pictures of the electronics
-
+![](wiring1.jpg)
+![](wiring2.jpg)
+![](wiring3.jpg)
+![](wiring4.jpg)
 ## Major Challenges
 
 There were quite a few challenges in making this project. However I would like to highlight a few and how I overcame them
@@ -105,4 +111,4 @@ While this was a quick fix, it took a ver long time because the part that was so
 
 Having 5 wirelessly controlled robots was difficult to maneuver as I needed to ensure that all of them worked without interfereing with eachother. At first we bought wireless lights and hoped to control the different robots with that remote. However we realised once the shipment arriv ed that the lights all worked with IR sensors and would be all turned on and off given the range of the robots. 
 <br>
-However this purchase was not put to waste as I used them to control the two robots which had 
+However this purchase was not put to waste as I used them to control the two robots which had repetitive movements. Two others were controlled using bluetooth devices and the final was used by taking apart a radio control car and using the remode to conrol the movement of my personal coded broom. I needed assistance controlling all the roboths simultaneously, but with sufficient practice they all worked smoothly despite having varying wireless controls.
